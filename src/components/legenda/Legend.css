@@ -1,0 +1,34 @@
+.legend {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    z-index: 1000;
+    width: 60px;
+}
+
+.legend-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.legend-scale {
+    width: 20px;
+    height: 200px;
+    margin: 0 auto 5px auto;
+}
+
+.legend-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.legend-labels div {
+    width: 20px;
+    text-align: center;
+}
